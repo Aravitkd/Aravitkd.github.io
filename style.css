@@ -66,7 +66,8 @@ section ul li {
 .profile-picture:hover {
     transform: scale(2); /* Enlarge the image */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow effect */
-    border: none; /* Remove the border on hover */
+    border-radius: 50%;
+    border: 3px solid white;
     z-index: 1; /* Bring the image in front */
 }
 
