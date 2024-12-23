@@ -19,6 +19,9 @@ header h1 {
     margin: 0;
     font-size: 2.5rem;
 }
+header h1:hover{
+    color: cyan;
+}
 
 header p {
     margin: 5px 0 0;
@@ -64,7 +67,7 @@ section ul li {
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .profile-picture:hover {
-    transform: scale(2); /* Enlarge the image */
+    transform: scale(1.5); /* Enlarge the image */
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow effect */
     border-radius: 50%;
     border: 3px solid white;
