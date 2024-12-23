@@ -63,7 +63,12 @@ section ul li {
     display: block;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
-
+.profile-picture:hover {
+    transform: scale(2); /* Enlarge the image */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Stronger shadow effect */
+    border: none; /* Remove the border on hover */
+    z-index: 1; /* Bring the image in front */
+}
 
 a {
     color: #0073e6;
