@@ -1,0 +1,172 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0073e6;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+header h1:hover{
+    color: cyan;
+}
+
+header p {
+    margin: 5px 0 0;
+    font-size: 1.2rem;
+    font-style: italic;
+}
+
+section {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+section h2 {
+    color: #0073e6;
+    border-bottom: 2px solid #0073e6;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    background: url('data:image/svg+xml,%3Csvg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="blue" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"%3E%3Cpath d="M5 12l5 5L20 7"/%3E%3C/svg%3E') no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+}
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin: 0 auto 10px;
+    display: block;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    color: #0073e6;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.9rem;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Contact Section */
+#contact p {
+    margin: 10px 0;
+    font-size: 1rem;
+}
+
+#contact a {
+    color: #0073e6;
+    font-weight: bold;
+}
+
+/* Responsiveness */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 2rem;
+    }
+
+    section {
+        width: 95%;
+    }
+}
+#resume {
+    text-align: center;
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resume a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #0073e6;
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+
+#resume a:hover {
+    background-color: #005bb5;
+}
+
+
+/* Achievements Section */
+#achievements {
+    margin: 20px auto;
+    padding: 20px;
+    width: 90%;
+    max-width: 800px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.achievement-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.achievement-image {
+    width: 100%;
+    max-width: 600px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.achievement-image:hover {
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
