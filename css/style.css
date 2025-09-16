@@ -507,6 +507,19 @@
 /*** footer End ***/
 
 
+.competition-images .competition-img {
+    width: 100%;          /* Full width of column */
+    height: 250px;        /* Fixed height for uniformity */
+    object-fit: cover;    /* Crop image to fit without stretching */
+    border-radius: 5px;
+    transition: transform 0.3s ease; /* Smooth hover effect */
+}
+
+.competition-images .competition-img:hover {
+    transform: scale(1.1); /* Enlarge 10% on hover */
+    cursor: pointer;
+}
+
 
 
 
